@@ -55,3 +55,10 @@ const OnboardingScreen = ({ onNext, onSkip }) => {
         </View>
       </View>
       
+      {/* Bottom home indicator area */}
+      <View style={styles.homeIndicator}>
+        <View style={styles.homeIndicatorBar} />
+      </View>
+    </SafeAreaView>
+  );
+};
