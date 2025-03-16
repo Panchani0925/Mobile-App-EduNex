@@ -122,3 +122,20 @@ const styles = StyleSheet.create({
     });
 
     export default OnboardingScreen;
+
+     // Usage in App.js:
+/*
+import React from 'react';
+import OnboardingScreen from './OnboardingScreen';
+
+export default function App() {
+  const handleStart = () => {
+    console.log('Journey button pressed');
+    // Navigate to main app
+  };
+
+   return (
+    <OnboardingScreen onStart={handleStart} />
+  );
+}
+*/
