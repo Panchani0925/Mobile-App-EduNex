@@ -69,3 +69,20 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       overflow: 'hidden',
     },
+    illustration: {
+        width: '80%',
+        height: '80%',
+      },
+      text: {
+        marginTop: 24,
+        fontSize: 16,
+        lineHeight: 24,
+        textAlign: 'center',
+        color: '#333',
+        marginBottom: 32,
+      },
+      progressContainer: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginBottom: 32,
+      },
