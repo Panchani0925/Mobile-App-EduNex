@@ -42,3 +42,30 @@ const OnboardingScreen = ({ onStart }) => {
     </SafeAreaView>
   );
 };
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: 'white',
+    },
+    content: {
+      flex: 1,
+      alignItems: 'center',
+      paddingHorizontal: 24,
+      paddingTop: 20,
+    },
+    illustrationContainer: {
+      width: '100%',
+      height: '50%',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    blueCircle: {
+      width: '100%',
+      aspectRatio: 1,
+      borderRadius: 999,
+      backgroundColor: '#4169E1',
+      justifyContent: 'center',
+      alignItems: 'center',
+      overflow: 'hidden',
+    },
