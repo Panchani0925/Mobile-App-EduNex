@@ -114,3 +114,19 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '600',
       },
+      skipButton: {
+        paddingVertical: 12,
+      },
+      skipButtonText: {
+        color: '#4169E1',
+        fontSize: 16,
+      },
+      homeIndicator: {
+        width: 134,
+        height: 5,
+        backgroundColor: '#000',
+        borderRadius: 2.5,
+        alignSelf: 'center',
+        marginBottom: 8,
+      },
+    });
