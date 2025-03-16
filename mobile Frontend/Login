@@ -78,3 +78,24 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     paddingHorizontal: 20,
   },
+  logoContainer: {
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  logo: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#4A6CF7', // Blue color similar to the login button
+  },
+  welcomeText: {
+    fontSize: 40,
+    textAlign: 'center',
+    marginTop: 30,
+    color: 'black',
+  },
+  nameText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 30,
+  },
