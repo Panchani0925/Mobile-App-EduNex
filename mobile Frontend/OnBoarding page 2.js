@@ -34,3 +34,14 @@ const OnboardingScreen = ({ onNext, onSkip }) => {
         <TouchableOpacity style={styles.nextButton} onPress={onNext}>
           <Text style={styles.nextButtonText}>Next</Text>
         </TouchableOpacity>
+        
+        <TouchableOpacity style={styles.skipButton} onPress={onSkip}>
+          <Text style={styles.skipButtonText}>Skip</Text>
+        </TouchableOpacity>
+      </View>
+
+      {/* Home Indicator Line */}
+      <View style={styles.homeIndicator} />
+    </SafeAreaView>
+  );
+};
