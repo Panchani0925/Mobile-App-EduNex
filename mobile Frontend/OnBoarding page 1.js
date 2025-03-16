@@ -54,7 +54,7 @@ const OnboardingScreen = ({ onNext, onSkip }) => {
           </TouchableOpacity>
         </View>
       </View>
-      
+
       {/* Bottom home indicator area */}
       <View style={styles.homeIndicator}>
         <View style={styles.homeIndicatorBar} />
@@ -62,3 +62,30 @@ const OnboardingScreen = ({ onNext, onSkip }) => {
     </SafeAreaView>
   );
 };
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: 'white',
+    },
+    contentContainer: {
+      flex: 1,
+      alignItems: 'center',
+      paddingHorizontal: 20,
+    },
+    illustrationContainer: {
+      width: '100%',
+      height: '50%',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    blueCircle: {
+      width: '100%',
+      aspectRatio: 1,
+      borderBottomLeftRadius: 1000,
+      borderBottomRightRadius: 1000,
+      backgroundColor: '#4263EB',
+      overflow: 'hidden',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
