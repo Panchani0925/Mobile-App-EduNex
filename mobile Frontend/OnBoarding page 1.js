@@ -148,3 +148,14 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         paddingBottom: 8,
       },
+      homeIndicatorBar: {
+        width: 134,
+        height: 5,
+        backgroundColor: 'black',
+        borderRadius: 2.5,
+      },
+    });
+    
+    export default OnboardingScreen;
+            
+    
