@@ -26,3 +26,32 @@ const OnboardingScreen = ({ onNext, onSkip }) => {
             />
           </View>
         </View>
+         {/* Text content */}
+         <View style={styles.textContainer}>
+          <Text style={styles.text}>
+            Education is the most powerful weapon which you can use to change the world.
+          </Text>
+        </View>
+
+          {/* Progress indicator */}
+          <View style={styles.progressContainer}>
+          <View style={styles.progressBar}>
+            <View style={styles.progressIndicator} />
+          </View>
+        </View>
+        
+        {/* Navigation buttons */}
+        <View style={styles.buttonContainer}>
+          <TouchableOpacity 
+            style={styles.nextButton} 
+            onPress={onNext}
+          >
+            <Text style={styles.nextButtonText}>Next</Text>
+          </TouchableOpacity>
+          
+          <TouchableOpacity onPress={onSkip}>
+            <Text style={styles.skipText}>Skip</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+      
