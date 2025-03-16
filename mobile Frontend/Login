@@ -1,0 +1,19 @@
+mport React, { useState } from 'react';
+import { 
+  View, 
+  Text, 
+  TextInput, 
+  TouchableOpacity, 
+  StyleSheet, 
+  SafeAreaView, 
+  StatusBar 
+} from 'react-native';
+
+const LoginScreen = () => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleLogin = () => {
+    // Implement login logic here
+    console.log('Login attempted with:', username);
+  };-
