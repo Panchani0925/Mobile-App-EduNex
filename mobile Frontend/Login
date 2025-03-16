@@ -40,3 +40,22 @@ const LoginScreen = () => {
           onChangeText={setUsername}
           autoCapitalize="none"
         />
+
+<TextInput
+          style={styles.input}
+          placeholder="Password"
+          value={password}
+          onChangeText={setPassword}
+          secureTextEntry
+        />
+        
+        <TouchableOpacity>
+          <Text style={styles.forgotPassword}>Forgot password?</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity 
+          style={styles.loginButton}
+          onPress={handleLogin}
+        >
+          <Text style={styles.loginButtonText}>Login</Text>
+        </TouchableOpacity>
