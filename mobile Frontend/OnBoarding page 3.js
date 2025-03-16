@@ -86,3 +86,23 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         marginBottom: 32,
       },
+      progressDot: {
+        width: 8,
+        height: 8,
+        borderRadius: 4,
+        backgroundColor: '#E0E0E0',
+        marginHorizontal: 4,
+      },
+      activeDot: {
+        width: 24,
+        backgroundColor: '#4169E1',
+      },
+      journeyButton: {
+        width: '100%',
+        height: 56,
+        backgroundColor: '#4169E1',
+        borderRadius: 8,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginBottom: 16,
+      },
