@@ -1,4 +1,4 @@
-mport React, { useState } from 'react';
+import React, { useState } from 'react';
 import { 
   View, 
   Text, 
@@ -99,3 +99,47 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginBottom: 30,
   },
+  formContainer: {
+    width: '100%',
+  },
+  input: {
+    height: 50,
+    borderColor: '#E0E0E0',
+    borderWidth: 1,
+    borderRadius: 8,
+    paddingHorizontal: 15,
+    marginBottom: 15,
+  },
+  forgotPassword: {
+    textAlign: 'right',
+    color: '#4A6CF7',
+    marginBottom: 15,
+  },
+  loginButton: {
+    backgroundColor: '#4A6CF7',
+    height: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 8,
+    marginTop: 10,
+  },
+  loginButtonText: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  registerContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 20,
+  },
+  registerText: {
+    color: 'black',
+  },
+  registerLinkText: {
+    color: '#4A6CF7',
+    fontWeight: 'bold',
+  },
+});
+
+export default LoginScreen;
