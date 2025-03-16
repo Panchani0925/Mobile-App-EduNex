@@ -106,3 +106,17 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginBottom: 16,
       },
+      journeyButtonText: {
+        color: 'white',
+        fontSize: 16,
+        fontWeight: '500',
+      },
+      homeIndicator: {
+        width: 134,
+        height: 5,
+        backgroundColor: '#000',
+        borderRadius: 2.5,
+        alignSelf: 'center',
+        marginBottom: 8,
+      },
+    });
