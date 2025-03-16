@@ -45,3 +45,21 @@ const OnboardingScreen = ({ onNext, onSkip }) => {
     </SafeAreaView>
   );
 };
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: 'white',
+    },
+    content: {
+      flex: 1,
+      alignItems: 'center',
+      paddingHorizontal: 24,
+      paddingTop: 20,
+    },
+    illustrationContainer: {
+      width: '100%',
+      height: '50%',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
