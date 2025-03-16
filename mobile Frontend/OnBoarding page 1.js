@@ -89,3 +89,28 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
     },
+    illustration: {
+        width: '80%',
+        height: '80%',
+      },
+      textContainer: {
+        paddingHorizontal: 20,
+        marginTop: 20,
+      },
+      text: {
+        fontSize: 16,
+        textAlign: 'center',
+        color: '#333',
+        lineHeight: 24,
+      },
+      progressContainer: {
+        width: '100%',
+        alignItems: 'center',
+        marginTop: 40,
+      },
+      progressBar: {
+        width: 100,
+        height: 8,
+        backgroundColor: '#E0E0E0',
+        borderRadius: 4,
+      },
