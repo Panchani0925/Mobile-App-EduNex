@@ -114,3 +114,37 @@ const styles = StyleSheet.create({
         backgroundColor: '#E0E0E0',
         borderRadius: 4,
       },
+      progressIndicator: {
+        width: '30%',
+        height: '100%',
+        backgroundColor: '#4263EB',
+        borderRadius: 4,
+      },
+      buttonContainer: {
+        width: '100%',
+        marginTop: 30,
+        alignItems: 'center',
+      },
+      nextButton: {
+        width: '100%',
+        height: 50,
+        backgroundColor: '#4263EB',
+        borderRadius: 8,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginBottom: 20,
+      },
+      nextButtonText: {
+        color: 'white',
+        fontSize: 16,
+        fontWeight: '600',
+      },
+      skipText: {
+        color: '#4263EB',
+        fontSize: 16,
+      },
+      homeIndicator: {
+        width: '100%',
+        alignItems: 'center',
+        paddingBottom: 8,
+      },
