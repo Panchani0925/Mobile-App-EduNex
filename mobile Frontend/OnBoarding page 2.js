@@ -132,3 +132,28 @@ const styles = StyleSheet.create({
     });
 
     export default OnboardingScreen;
+
+    // Usage in App.js:
+/*
+import React from 'react';
+import OnboardingScreen from './OnboardingScreen';
+
+export default function App() {
+  const handleNext = () => {
+    console.log('Next pressed');
+    // Navigate to next screen
+  };
+
+  const handleSkip = () => {
+    console.log('Skip pressed');
+    // Skip onboarding
+  };
+
+  return (
+    <OnboardingScreen 
+      onNext={handleNext}
+      onSkip={handleSkip}
+    />
+  );
+}
+*/
