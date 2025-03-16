@@ -18,3 +18,27 @@ const OnboardingScreen = ({ onStart }) => {
             />
           </View>
         </View>
+
+        {/* Text Content */}
+        <Text style={styles.text}>
+          The beautiful thing about learning is that no one can take it away from you.
+        </Text>
+        
+        {/* Progress Indicator */}
+        <View style={styles.progressContainer}>
+          <View style={[styles.progressDot, styles.activeDot]} />
+          <View style={styles.progressDot} />
+          <View style={styles.progressDot} />
+        </View>
+
+        {/* Action Button */}
+        <TouchableOpacity style={styles.journeyButton} onPress={onStart}>
+          <Text style={styles.journeyButtonText}>Let's Make a Journey</Text>
+        </TouchableOpacity>
+      </View>
+      
+      {/* Home Indicator Line */}
+      <View style={styles.homeIndicator} />
+    </SafeAreaView>
+  );
+};
