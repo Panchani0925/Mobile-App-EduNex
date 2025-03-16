@@ -59,3 +59,22 @@ const LoginScreen = () => {
         >
           <Text style={styles.loginButtonText}>Login</Text>
         </TouchableOpacity>
+
+        {/* Register Option */}
+        <View style={styles.registerContainer}>
+          <Text style={styles.registerText}>Don't have an account? </Text>
+          <TouchableOpacity>
+            <Text style={styles.registerLinkText}>Register</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </SafeAreaView>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+    paddingHorizontal: 20,
+  },
