@@ -17,3 +17,26 @@ const LoginScreen = () => {
     // Implement login logic here
     console.log('Login attempted with:', username);
   };-
+
+  return (
+    <SafeAreaView style={styles.container}>
+      <StatusBar barStyle="dark-content" />
+      
+      {/* Logo */}
+      <View style={styles.logoContainer}>
+        <Text style={styles.logo}>EDUNEX</Text>
+      </View>
+
+      {/* Welcome Message */}
+      <Text style={styles.welcomeText}>Welcome ,</Text>
+      
+
+      {/* Login Form */}
+      <View style={styles.formContainer}>
+        <TextInput
+          style={styles.input}
+          placeholder="Username/Email"
+          value={username}
+          onChangeText={setUsername}
+          autoCapitalize="none"
+        />
